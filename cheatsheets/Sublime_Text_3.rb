@@ -78,6 +78,16 @@ cheatsheet do
         end
 
         entry do
+            name 'Focus sidebar'
+            command 'CTRL+0'
+        end
+
+        entry do
+            name 'Focus group/pane 1-9'
+            command 'CTRL+1-9'
+        end
+
+        entry do
             name 'Enter full screen'
             command 'CMD+CTRL+F'
         end
@@ -564,6 +574,16 @@ cheatsheet do
         entry do
             name 'Grid: 3'
             command 'CMD+ALT+5'
+        end
+
+        entry do
+            name 'Jump to specified group'
+            command 'CTRL+[NUM]'
+        end
+
+        entry do
+            name 'Move file to specified group'
+            command 'CTRL+SHIFT+[NUM]'
         end
     end
 
